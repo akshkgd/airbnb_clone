@@ -1,3 +1,53 @@
-h1{
-    color: RED;
+.ab-alert{
+    color: #a3a3a3;
+    font-size: 14px;
+}
+.ab-alert:hover{
+    color: #A3A3A3CC;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-image: url('/img/hero.webp');
+    height: 550px;
+    background-size: cover;
+    color: white;
+}
+@media(max-width:576px){
+    .bk-padding{
+        padding-top: 120px;
+        text-align: center !important;
+    }
+}
+@media(min-width:576px){
+.bk-padding{
+    padding-top: 160px;
+    padding-left: 50px;
+}
+}
+
+.bk-padding h1{
+    font-size: 46px;
+    font-weight: 700;
+}
+.place{
+    height: 70px;
+    width: 70px;
+    border-radius: 12px;
+}
+
+.ad{
+    background-image: url('../img/hero2.jpeg');
+    height: 400px;
+    background-size: cover;
+    border-radius: 18px;
+    color: black;
+}
+
+.ad-padding{
+    padding-top: 100px;
+}
+.ab-rounded{
+    border-radius: 15px;
 }
